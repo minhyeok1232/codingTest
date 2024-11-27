@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    int T; // 테스트케이스의 개수
+    int T; 
     cin >> T;
 
     while (T--) {
@@ -14,9 +14,9 @@ int main() {
         int num;
         deque<int> dq;
 
-        cin >> str;      // 명령어들 (예: RDD)
-        cin >> num;      // 배열 크기
-        cin >> str_input; // 입력 배열 (예: [1,2,3,4])
+        cin >> str;      // RDD
+        cin >> num;      // 4
+        cin >> str_input; // [1,2,3,4]
 
         // 배열 처리: '['와 ']'를 제외한 숫자들 처리
         string current = "";
@@ -37,7 +37,7 @@ int main() {
         // 명령어 처리
         for (char command : str) {
             if (command == 'R') {
-                is_reversed = !is_reversed;  // 뒤집기 상태를 토글
+                is_reversed = !is_reversed;  
             } else if (command == 'D') {
                 if (dq.empty()) {  // 덱이 비어있으면 에러
                     Queue_Error = true;
