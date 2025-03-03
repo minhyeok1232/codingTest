@@ -31,4 +31,3 @@
 ## 📌 코딩 테스트 문제 사이트
 [백준 온라인 저지](https://www.acmicpc.net/) <br>
 [프로그래머스](https://programmers.co.kr/) <br>
-[LeetCode](https://leetcode.com/) <br>
